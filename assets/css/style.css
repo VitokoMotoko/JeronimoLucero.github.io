@@ -1,0 +1,46 @@
+body {
+    
+    font-family: 'oswald', sans-serif;
+}
+
+
+h1{
+
+    text-shadow: 5px 4px 2px black;
+
+}
+
+
+h2 {
+    text-shadow: 5px 5px 1px black;
+}
+
+h3,h5 {
+    text-shadow: 2px 2px 1px black;
+}
+
+
+#headercv {
+    background-image: url(../img/HeaderJero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+    filter: saturate(50%);
+    height: 90vh;
+    width: 100%;
+}
+
+#infoexperiencia hr,
+#infoeducacion hr {
+    width: 50%;
+    margin: auto;
+}
+
+
+.card-img-top {
+
+    aspect-ratio: 16/9;
+    object-fit: "cover";
+
+}
